@@ -1,0 +1,42 @@
+html, body{
+  margin: 0px;
+}
+
+.box {
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+
+.box img {
+  height: 100px;
+}
+
+.box p {
+  text-align: left;
+}
+
+nav {
+  position: sticky;
+  background-color: red;
+  margin-top: 0px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: red;
+  padding: 20px;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
